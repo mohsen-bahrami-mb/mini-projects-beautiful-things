@@ -16,7 +16,7 @@ body {
     border-radius: 10px;
     color: #014866;
     background-color: #ffffff;
-    transition: box-shadow, transform 0.5s ;
+    transition: all 0.5s ;
     transition-timing-function: cubic-bezier(0.5,3,1,1);
 }
 
