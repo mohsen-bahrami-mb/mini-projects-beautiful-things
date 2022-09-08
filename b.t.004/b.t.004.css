@@ -1,0 +1,78 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #014866;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.login {
+    display: grid;
+    place-items: center;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+<<<<<<< HEAD
+    cursor: pointer;
+=======
+>>>>>>> 515ad2852f6909c94f8d2ffd49dcaa66ea416f25
+}
+
+.wrong {
+    position: relative;
+    display: grid;
+    place-items: center;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #ffff39;
+    animation: wrong-a 3s cubic-bezier(0.5, 2, 0.3, 0.6);
+}
+
+.wrong::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    right: 0px;
+    background-color: #ffff39;
+    animation: wrong-after 3s cubic-bezier(0.5, 2, 0.3, 0.6) forwards;
+}
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> 515ad2852f6909c94f8d2ffd49dcaa66ea416f25
+@keyframes wrong-a {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(90deg);
+    }
+
+    80% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes wrong-after {
+    0% {
+        right: 0px;
+    }
+
+    50% {
+        right: -40px;
+    }
+
+    80% {
+        right: 0px;
+    }
+}
