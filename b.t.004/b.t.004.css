@@ -16,10 +16,7 @@ body {
     height: 30px;
     border-radius: 5px;
     background-color: white;
-<<<<<<< HEAD
     cursor: pointer;
-=======
->>>>>>> 515ad2852f6909c94f8d2ffd49dcaa66ea416f25
 }
 
 .wrong {
@@ -45,10 +42,6 @@ body {
     animation: wrong-after 3s cubic-bezier(0.5, 2, 0.3, 0.6) forwards;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 515ad2852f6909c94f8d2ffd49dcaa66ea416f25
 @keyframes wrong-a {
     0% {
         transform: rotate(0deg);
