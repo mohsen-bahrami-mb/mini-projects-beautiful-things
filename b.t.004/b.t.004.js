@@ -6,4 +6,4 @@ function checkAccess(e) {
         e.target.innerHTML = "login";
         e.target.classList.remove('wrong');
     })
-}
+};
